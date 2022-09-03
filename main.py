@@ -225,7 +225,7 @@ with body:
     tab1, tab2, tab3,tab4 = st.tabs(["📝Type or Paste","📑Sample text"," 📄Upload Text","🗒️Upload PDF"])
 
     with tab1:
-        input_text = st.text_input('Type or paste a sample doucment here.')
+        input_text = st.text_area('Type or paste a sample doucment here.')
 
     with tab2: 
         sample = st.selectbox('Or select sample text', ('Sample_SDG_Report.txt', None), index= 1)
