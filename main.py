@@ -228,9 +228,9 @@ with body:
         input_text = st.text_area('Type or paste a sample doucment here.')
 
     with tab2: 
-        sample = st.selectbox('Or select sample text', ('Team_A.txt', None), index= 1)
+        sample = st.selectbox('Or select sample text', ('Sample_SDG_Report.txt', None), index= 1)
         if sample != None:
-            f = open("Team_A.txt", "r",encoding='utf-8')
+            f = open("Sample_SDG_Report.txt", "r",encoding='utf-8')
             input_text = f.read()
 
 
