@@ -216,7 +216,7 @@ def word_freq(text):
 with body:
     new_title = '<p style="font-family:sans-serif; color:Black; font-size: 42px; text-align: center;">UN-SDGs Label Classifier Web App</p>'
     st.markdown(new_title, unsafe_allow_html=True)
-    st.image('intropm1_2.png')
+    st.image('imgs/intropm1_2.png')
     # explore,teamA,sdg=st.columns(3)
     # explore.image('imgs/SDG-logo-removebg.png')
     # teamA.image('imgs/teamA.jpg')
